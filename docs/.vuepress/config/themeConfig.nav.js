@@ -17,8 +17,9 @@ module.exports = [
     text: '技术',
     link: '/technology/',
     items: [
-      {text: 'Python', link: '/pages/529679/'},
-      {text: 'Git', link: ''},
+      {text: 'Python数据分析', link: '/pages/c1a4b3/'},
+      {text: 'Git', link: '/pages/17be9b/'},
+      {text: '博客搭建', link: '/pages/5fb93e/'},
       {text: '其他', link: '/pages/7c9d0d/'},
     ]
   },

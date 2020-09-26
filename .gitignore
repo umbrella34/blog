@@ -5,6 +5,11 @@ node_modules
 # vscode
 .vscode
 
+# 未写完的文章
+*.no.md
+
+# Typora本地图片
+*.assets/
 
 # vuepress 
 docs/.vuepress/dist
