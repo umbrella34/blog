@@ -10,10 +10,12 @@ npm run build
 cd docs/.vuepress/dist
 
 # deploy to github
-echo 'ux34.cn' > CNAME
 git init
 git add -A
 git commit -m 'deploy'
+
+# 如果发布到 https://<USERNAME>.github.io
+git push -f git@github.com:umbrella34.github.io.git master
 
 cd - # 退回开始所在目录
 # rm -rf docs/.vuepress/dist
