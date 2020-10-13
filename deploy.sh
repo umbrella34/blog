@@ -14,8 +14,8 @@ git init
 git add -A
 git commit -m 'deploy' 
 
-# 如果发布到 https://<USERNAME>.github.io
-git push -f git@github.com:umbrella34.github.io.git master
+# 如果发布到 https://<USERNAME>.github.io https:///umbrella34/umbrella34.git
+git push -f git@gitee.com:umbrella34/umbrella34.git master
 
 cd - # 退回开始所在目录
 # rm -rf docs/.vuepress/dist
