@@ -18,4 +18,10 @@ git commit -m 'deploy'
 git push -f git@gitee.com:umbrella34/umbrella34.git master
 
 cd - # 退回开始所在目录
+
+
+# 源码也同步到github
+git add -A
+git commit -m 'deploy' 
+git push
 # rm -rf docs/.vuepress/dist
