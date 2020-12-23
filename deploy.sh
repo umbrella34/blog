@@ -22,6 +22,6 @@ cd - # 退回开始所在目录
 
 # 源码也同步到github
 git add -A
-git commit -m 'deploy' 
+git commit -m '更新' 
 git push
 # rm -rf docs/.vuepress/dist
