@@ -24,4 +24,5 @@ cd - # 退回开始所在目录
 git add -A
 git commit -m '更新' 
 git push
-# rm -rf docs/.vuepress/dist
+
+rm -rf docs/.vuepress/dist

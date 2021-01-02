@@ -11,6 +11,9 @@ node_modules
 # Typora本地图片
 *.assets/
 
+# 可能产生的临时文件
+*.temp/
+
 # vuepress 
 docs/.vuepress/dist
 
