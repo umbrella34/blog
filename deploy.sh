@@ -15,7 +15,7 @@ git add -A
 git commit -m 'deploy' 
 
 # 如果发布到 https://<USERNAME>.github.io https:///umbrella34/umbrella34.git
-git push -f git@gitee.com:umbrella34/umbrella34.git master
+git push -f git@gitee.com:umbrella34/umbrella34.git main:master
 
 cd - # 退回开始所在目录
 
